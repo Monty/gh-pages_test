@@ -15,7 +15,7 @@ You can play it online at
 [https://monty.github.io/wordled/](https://monty.github.io/wordled/)
 
 You can play it on your computer even with no internet connection. Simply open
-the [index.html](assets/index.html) file in any browser to play.
+the [index.html](assets/index.html?raw=true) file in any browser to play.
 
 ### Background
 
