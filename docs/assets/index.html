@@ -1,0 +1,35 @@
+<!doctype html>
+
+<!--- Open this file in your browser to play the game. --->
+
+<html>
+
+<head>
+	<title>Wordled - A Wordle based game made in Javascript</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<meta name="author" content="ozboware">
+	<link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<noscript id="no_script"></noscript>
+<!---
+    Correct answers are in assets/js/answers.js
+        level1 - 100 words for young children
+        level2 - over 1000 common words
+        level3 - over 2500 words
+        level4-  over 3400 words
+    You can add or delete words in any of those sections.
+    You can even add other sections as long as you modify
+    any "add a difficulty level" code in assets/js/game.js
+
+    assets/js/words.js is level5, with over 13,000 words.
+    It is also the master list containing all valid guesses.
+--->
+	<script src="./assets/js/answers.js"></script>
+	<script src="./assets/js/words.js"></script>
+	<script src="./assets/js/game.js"></script>
+</body>
+
+</html>
