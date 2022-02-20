@@ -10,7 +10,7 @@
 Ancestry, 23andMe, FamilyTreeDNA, GEDmatch, and MyHeritage (*in minutes instead
 of days*). However, some important numeric data in its output files, such as
 Shared cMs, is in a
-[different column for each site](https://github.com/Monty/DNA_Match_Manager_Helper/blob/master/DNA_Match_Manager-FieldNames.md).
+[different column for each site](DNA_Match_Manager-FieldNames.md).
 That makes it difficult to sort into a
 useful order.
 
