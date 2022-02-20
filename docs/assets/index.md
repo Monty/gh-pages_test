@@ -1,4 +1,4 @@
-```
+```html
 <!doctype html>
 
 <!--- Open this file in your browser to play the game. --->

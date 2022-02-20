@@ -1,3 +1,4 @@
+```javascript
 /*
 A list of 100 words suitable for younger children obtained from:
 http://www.yougowords.com/kindergarten-words/5-letters
@@ -1032,3 +1033,4 @@ let level4 = ["aback", "abase", "abate", "abaya", "abbey", "abbot",
 "wring", "wrist", "write", "wrong", "wrote", "wrung", "wryly",
 "yacht", "yards", "yearn", "years", "yeast", "yield", "young",
 "yours", "youth", "yummy", "zebra", "zesty", "zonal", "zones"];
+```

@@ -1,3 +1,4 @@
+```javascript
 /*
 This is the Javascript code which runs Wordled in your browser.
 The detailed explanation of how it was built is available at:
@@ -360,3 +361,4 @@ function addLetter(rowBlockEl, letter) {
         nextRowBlock++;
     }
 }
+```
