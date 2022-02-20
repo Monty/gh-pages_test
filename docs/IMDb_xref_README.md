@@ -66,7 +66,7 @@ display the cast of "The Crown", the cast of "The Night Manager", and finally,
 the principal cast members who appear in more than one show. You can easily see
 that the actress you were looking for is Elizabeth Debicki.
 
-![Finding duplicates](docs/Screenshots/duplicates.png?raw=true)
+![Finding duplicates](screenshots/duplicates.png?raw=true)
 
 If you like those shows, save them to your favorites. It will enable some
 advanced features we'll cover later.
@@ -75,7 +75,7 @@ Then select `Find all shows listing a person as a principal cast or crew
 member`. Enter **`Elizabeth Debicki`**. It will find 17 titles listing Elizabeth
 Debicki as: actress.
 
-![Debicki as actress](docs/Screenshots/Debicki.png?raw=true)
+![Debicki as actress](screenshots/Debicki.png?raw=true)
 
 Repeat with any cast members you want to know more about, such as Olivia Colman.
 You'll discover she is in 62 shows, including "Broadchurch".
@@ -98,7 +98,7 @@ cd IMDb_xref
 
 If you get a pop-up saying: 'The "git" command requires the command line
 developer tools. Would you like to install the tools now?', click the
-"[Install](docs/Screenshots/Install_Dev-Tools.png?raw=true)" button, not the
+"[Install](screenshots/Install_Dev-Tools.png?raw=true)" button, not the
 "Get Xcode" button.
 
 ## Automated quickstart
@@ -111,7 +111,7 @@ the dialog box.*)
 This will set up your preferences, install prerequisites, download the
 compressed IMDb data files, and open the top-level menu shown below.
 
-![Top-level menu](docs/Screenshots/startMenu.png?raw=true)
+![Top-level menu](screenshots/startMenu.png?raw=true)
 
 Select #1 `Find the principal cast & crew members of one or more shows`. Enter
 the title of a movie or TV show you like. If you know another show starring some
