@@ -9,8 +9,10 @@
 **[DNA Match Manager][]** is a free program that downloads DNA match data from
 Ancestry, 23andMe, FamilyTreeDNA, GEDmatch, and MyHeritage (*in minutes instead
 of days*). However, some important numeric data in its output files, such as
-Shared cMs, is in a [different column for each site][columns]. That makes it
-difficult to sort into a useful order.
+Shared cMs, is in a
+[different column for each site](DNA_Match_Manager-FieldNames.md).
+That makes it difficult to sort into a
+useful order.
 
 The shell script **makeDNASpreadsheet.sh** overcomes that problem by extracting
 and coalescing data from those files into a summary spreadsheet sorted by
@@ -89,7 +91,7 @@ and save it as a non-csv spreadsheet. Use that spreadsheet to make notes, add
 missing data, and change erroneous relationships (*e.g. second cousin to first
 cousin once removed, etc.*). Add as many columns as you need for things like
 most recent common ancestor, birth year, location, common surnames, or data
-from [site specific columns][columns].
+from [site specific columns](DNA_Match_Manager-FieldNames.md).
 
 Don't delete the **Relatives-*timestamp*.csv** file produced by this script. It
 will be used by later runs to produce an **Additions-*timestamp*.csv** file
