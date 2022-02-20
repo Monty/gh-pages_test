@@ -5,11 +5,11 @@ five different word lists. It chooses a new random word each time, so you can
 play as often as you like, not just once per day. There is no social media
 posting or score keeping, just fun and Wordle skill building.
 
-The word lists are in the file [assets/js/answers.js](assets/js/answers.js). The
+The word lists are in the file [assets/js/answers.js](assets/js/answers.md). The
 default contains over 1000 common words. The simplest contains 100 words
 suitable for young children with a limited vocabulary. The most difficult
 contains over 13,000 words. You can even add your own list by following the "add
-a difficulty level" instructions in [assets/js/game.js](assets/js/game.js)
+a difficulty level" instructions in [assets/js/game.js](assets/js/game.md)
 
 You can play it online at
 [https://monty.github.io/wordled/](https://monty.github.io/wordled/)
