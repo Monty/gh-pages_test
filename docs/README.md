@@ -22,14 +22,14 @@ I've started with no theme selected.
 
 [Levenshtein](Levenshtein_README.md)
 
-##Problem areas
+## Problem areas
 
 ### Tables
 
-Screenshot with no theme selected:
+#### Screenshot with no theme selected:
 ![Table Screenshot](screenshots/Table_Screenshot.png)
 
-As displayed using current theme:
+#### As displayed using current theme:
 
 | Column | Description |
 |--------:|:-------------|
