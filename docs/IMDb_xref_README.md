@@ -6,9 +6,9 @@ members in common.
 
 Create comprehensive lists and spreadsheets about your favorite shows. They're
 useful as an overview or for researching details on shows and cast members. For
-example, [shows with episode titles](OutputFiles/Shows-Episodes.tsv),
-[credits sorted by show/episode](OutputFiles/Credits-Show.tsv), and
-[credits sorted by cast member](OutputFiles/Credits-Person.tsv).
+example, [shows with episode titles](Shows-Episodes.tsv),
+[credits sorted by show/episode](Credits-Show.tsv), and
+[credits sorted by cast member](Credits-Person.tsv).
 
 [![MIT License](https://img.shields.io/github/license/Monty/IMDb_xref)](LICENSE)
 [![Code](https://tokei.rs/b1/github/Monty/IMDb_xref?category=code)](https://github.com/Monty/IMDb_xref)
