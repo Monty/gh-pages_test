@@ -6,7 +6,8 @@ members in common.
 
 Create comprehensive lists and spreadsheets about your favorite shows. They're
 useful as an overview or for researching details on shows and cast members. For
-example, [shows with episode titles](Shows-Episodes.tsv),
+example, [shows with episode titles tsv](Shows-Episodes.tsv),
+[shows with episode titles csv](Shows-Episodes.csv),
 [credits sorted by show/episode](Credits-Show.tsv), and
 [credits sorted by cast member](Credits-Person.tsv).
 
