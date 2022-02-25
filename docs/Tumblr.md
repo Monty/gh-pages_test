@@ -108,6 +108,8 @@ Appetizer for lunch at Azafran
 
 ## 2009 trip to Italy
 
+### Lugano
+
  ![](images/10448196_500.jpg)
 
 What I felt like after traveling from Portland to Lugano
@@ -147,7 +149,7 @@ ___
 
 A funicular runs from the train station to the old city
 
-___
+### Alba
 
 We found a B&B that looks interesting in Alba called 
 _[Villa la Favorita](https://villalafavorita-alba.it/en/)_
@@ -166,7 +168,7 @@ grappa - seem to have come special delivery on the wings of an angel.”
 
 Yumm! I can’t wait.
 
-___
+### Bergamo
 
 A few weeks ago, we discovered a wonderful Italian blue cheese called Rossini
 Erborinato. It comes from the Bergamo region of Italy. So after we leave the
