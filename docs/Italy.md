@@ -1,44 +1,44 @@
----
+___
  ![](images/10448196_500.jpg)
 
 What I felt like after traveling from Portland to Lugano
 
----
+___
  ![](images/10459342_500.jpg)
 
 We stayed at the Hotel Lugano Dante on the Piazza Cioccaro
 
----
+___
  ![](images/10459113_500.jpg)
 
 The funicular dropped us off right at the entrance to our hotel
 
----
+___
  ![](images/10448091_r1_500.jpg)
 
 Small harbor seen from the train between Zurich and Lugano
 
----
+___
  ![](images/10448500_500.jpg)
 
 Our hotel room in Lugano
 
----
+___
  ![](images/10448297_500.jpg)
 
 Lugano hotels viewed across the lake from the city park
 
----
+___
  ![](images/10449243_r1_500.jpg)
 
 If you look carefully, you can see the funicular which goes up Mount Bre.
 
----
+___
  ![](images/10458890_500.jpg)
 
 A funicular runs from the train station to the old city
 
----
+___
 
 We found a B&B that looks interesting in Alba called 
 _[Villa la Favorita](https://villalafavorita-alba.it/en/)_
@@ -57,7 +57,7 @@ grappa - seem to have come special delivery on the wings of an angel.”
 
 Yumm! I can’t wait.
 
----
+___
 
 A few weeks ago, we discovered a wonderful Italian blue cheese called Rossini
 Erborinato. It comes from the Bergamo region of Italy. So after we leave the
