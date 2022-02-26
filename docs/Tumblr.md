@@ -1,4 +1,4 @@
-# My Old Tumblr Blog
+# My Old Travel Blog
 
 ## 2009 trip to Buenos Aires
 
