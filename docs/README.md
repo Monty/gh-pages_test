@@ -45,3 +45,6 @@ I've started with no theme selected.
 | Shared Segs | Total number of DNA segments shared |
 | Longest Seg | Size (*in cMs*) of largest matching segment |
 | Relationship | Varies - *e.g. GEDmatch uses a number instead of text* |
+
+# Other test pages
+[Countries I've visited](visited_countries.html)
