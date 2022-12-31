@@ -21,10 +21,14 @@ waybackURL=$(jq -r '.archived_snapshots.closest.url |
     select(. != null)' <<<"$waybackResult")
 
 if [[ $waybackURL =~ ^http(s)?://* ]]; then
-    waybackTimeStamp=$(jq -r '.archived_snapshots.closest.timestamp' <<<"$waybackResult" |
-        jq -r 'tostring | strptime("%Y%m%d%H%M%S") | strftime("%Y-%m-%d %H:%M:%S UTC")')
-    printf "==> %s was last archived at %s as:\n" "$targetURL" "$waybackTimeStamp"
+    UTC_timestamp=$(jq -r '.archived_snapshots.closest.timestamp' <<<"$waybackResult" |
+        jq -r 'tostring | strptime("%Y%m%d%H%M%S") | strftime("%Y-%m-%d %H:%M:%S")')
+    local_timestamp=$(jq -r '.archived_snapshots.closest.timestamp' <<<"$waybackResult" |
+        jq -r 'tostring | strptime("%Y%m%d%H%M%S") | mktime | strflocaltime("%Y-%m-%d %H:%M:%S")')
+    printf "==> %s was last archived at:\n" "$targetURL"
+    printf "    %s (%s UTC) as:\n" "$local_timestamp" "$UTC_timestamp"
     printf "    %s\n" "$waybackURL"
+    # for @a@pdx.social
     printf "    ([archive](%s))\n" "$waybackURL"
 else
     printf "==> %s has not been archived.\n" "$targetURL"
