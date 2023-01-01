@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
+#
 # Check if a URL is archived in the Wayback Machine
+# Print the archive URL
+# Offer to update the archive for that URL
+# Offer to check again
 
 if ! type -p "jq" >/dev/null; then
     printf "==> [Error] Can't run jq.\n" >&2
@@ -35,4 +39,24 @@ if [[ $waybackURL =~ ^http(s)?://* ]]; then
     printf "    ([archive](%s))\n" "$waybackURL"
 else
     printf "==> %s has not been archived.\n" "$targetURL"
+fi
+
+# Offer to update the archive for the URL even if one was already found
+printf "\n"
+read -r -p "Request a current archive of $targetURL? [y/N] " YESNO
+shift
+if [ "$YESNO" != "y" ]; then
+    exit
+else
+    printf "Saving %s on the Wayback Machine...\n" "$targetURL"
+    open "https://web.archive.org/save/$targetURL"
+    printf "\n"
+    read -r -p "Check $targetURL again? [y/N] " YESNO
+    shift
+    if [ "$YESNO" != "y" ]; then
+        exit
+    else
+        printf "\n"
+        exec $0 "$targetURL"
+    fi
 fi
