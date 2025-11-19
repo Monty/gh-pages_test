@@ -8,6 +8,7 @@
 I have four recent Mac computers. All running apple silicon. I can ssh from my laptop to two others almost instantly, but to the third it can take several seconds. Sometimes I can't ssh to it at all, but rebooting my laptop fixes that. Even when I can't ssh to that computer from my laptop I can ssh to another computer and from that one I can ssh to the one I can't reach directly.
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Here are the **most common causes** of the exact symptoms you’re seeing — _some hosts connect instantly, one host has multi-second delays or occasional failures, but can be reached indirectly_ — plus the steps I recommend in order.
 
@@ -257,6 +258,7 @@ If you'd like, I can:
 *   Help disable reverse DNS in sshd config
 
 Just tell me what tests you want to run first.
+
 </details>
 
 ## Prompt:
@@ -267,6 +269,7 @@ $ arp -a
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Thanks — **that ARP output is incomplete** (it only shows your router twice), which means macOS hasn’t _recently communicated_ with the host you’re trying to SSH into.
 
@@ -415,6 +418,7 @@ This will show exactly where the connectivity is failing, and we’ll know wheth
 That arp was from the mac I can't always connect to. I was ssh'd into it to run that arp
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Got it — **that changes the picture completely.**
 
@@ -620,8 +624,8 @@ lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
 	inet 192.168.1.11 netmask 0xffffff00 broadcast 192.168.1.255
 ```
 
-
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 **Bingo. That explains _everything_.**
 
@@ -778,6 +782,7 @@ Local IP (en0): 192.168.1.53/24 (7e:d1:39:39:d2:e6) [1500] <UP,BROADCAST,RUNNING
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Thanks — the fastfetch output is extremely informative, and it tells us something very important:
 
@@ -958,6 +963,7 @@ Ethernet Address: 36:ec:c2:c9:a7:84
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Thank you — this makes the situation **perfectly clear**.
 
@@ -1111,6 +1117,7 @@ Just let me know when you're ready.
 Mac is connected to a hub/dock while Monarch is not.  I'm ssh'd into Holmes right now. what command do I run to show the two active IP addresses?
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 You can see **all active IP addresses** on Holmes with any of these commands. The clearest one is:
 
@@ -1221,6 +1228,7 @@ lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Ah! This new information completely changes the situation:
 
@@ -1371,6 +1379,7 @@ An asterisk (*) denotes that a network service is disabled.
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Perfect — **this explains everything.**
 
@@ -1512,6 +1521,7 @@ An asterisk (*) denotes that a network service is disabled.
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Thank you — and this actually tells us something very important:
 
@@ -1682,6 +1692,7 @@ lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 You did the right thing by disabling Wi-Fi, **but something unexpected happened**:
 
@@ -1877,6 +1888,7 @@ VLAN Configurations
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Great — now we can confirm the mapping:
 
@@ -2009,6 +2021,7 @@ en1: flags=8822<BROADCAST,SMART,SIMPLEX,MULTICAST> mtu 1500
 ```
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 Perfect — **this is exactly what we wanted.**
 
@@ -2120,6 +2133,7 @@ Thanks! You've been extremely helpful. This has been a thorny problem and you ma
 It'll take a couple of days since it's randomly intermittent. I don't really need wifi on Holmes, but will leave Monarch dual homed so my wife can unlock it with her watch.
 
 <details><summary>Click to view Response:</summary>
+
 ## Response:
 You're very welcome — and I’m glad we got to the bottom of it.  
 This was a genuinely thorny, low-level networking issue, and you did all the right diagnostics; you just needed one last push to see that the dual-homed IP situation on Holmes was the root cause.
